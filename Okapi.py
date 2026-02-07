@@ -17,7 +17,7 @@ menu = st.sidebar.radio("MENU PRINCIPAL",
                          "✅ Livrer un colis"])
 
 # === ENREGISTRER UN ENVOI ===
-if menu.startswith("🏷️"):
+if menu : 
     st.subheader("Enregistrement d’un nouvel envoi")
 
     expediteur_nom = st.text_input("Nom de l’expéditeur")
